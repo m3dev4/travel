@@ -1,0 +1,154 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.contact{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.24), rgba(0, 149, 160, 0.418)), url("https://png.pngtree.com/background/20230317/original/pngtree-sci-fi-city-plant-cyberpunk-background-picture-image_2148982.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+       
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 5;
+    align-items: center;
+    background: black;
+    padding: 15px 0;
+}
+.logo-page{
+    margin: 0 10px;
+    position: absolute;
+    left: 0;
+}
+.logo-title{
+    color: aliceblue;
+    margin: 10px ;
+    position: absolute;
+    top: 0;
+    font-size: 27px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 47px red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.title_para{
+    display: block;
+    position:relative;
+    margin-left: -500px;
+}
+.title_para h1{
+    font-size: 65px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.title_para p{
+    color: white;
+    font-size: 22px;
+}
+.formPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: absolute;
+    right: 100px;
+    height: 300px;
+    width: 300px;
+    margin-top: 5;
+    background: rgba(245, 245, 245, 0.205);
+}
+
+input {
+   position: relative;
+   margin-top: 25px;
+   padding: 7px 0;
+   border-radius: 25px;
+}
+label{
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: 50px 25px;
+    position: relative;
+}
+.social-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+.social-link img{
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  ease-in-out;
+}
+.social-link::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 1px;
+    width: 200px;
+    top: 200px;
+    transform: rotate(90deg);
+}
+
+.social-link img:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) ease-in;
+}

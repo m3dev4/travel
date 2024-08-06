@@ -1,0 +1,95 @@
+{
+  "countries": [
+    {
+      "name": "Canada",
+      "cities": [
+        {
+          "name": "Toronto",
+          "description": "Toronto is the capital city of the Canadian province of Ontario.",
+          "population": "2,731,571",
+          "imgUrl": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/147000/147900-Toronto.jpg"
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "cities": [
+        {
+          "name": "New York",
+          "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.",
+          "population": "8,175,133",
+          "imgUrl": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
+        },
+        
+       {
+        "name": "Manatthan",
+        "population": "1,575,133",
+        "description": "Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.Manathan is the capital city of the United States.",
+        "imgUrl": "https://image.newyorkcity.fr/wp-content/uploads/2021/09/Manhattan-in-New-York-Brooklyn-Bridge.jpg.webp"
+       }, 
+       {
+        "name": "Brooklyn",
+        "population": "1,375,133",
+        "description": "Brooklyn is the capital city of the United States.Brooklyn is the capital city of the United States.Brooklyn is the capital city of the United States.Brooklyn is the capital city of the United States.Brooklyn is the capital city of the United States.",
+        "imgUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/07/11/brooklyn-manhattan-bridge.jpg"
+       }
+      ]
+    },
+    {
+      "name": "Senegal",
+      "cities": [
+        {
+          "name": "Dakar",
+          "description": "Dakar is the capital city of the Dakar region, in the Senegal department.",
+          "population": "1,860,000",
+          "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdhFM5Ao86VWzocF7u_6ttFfnquDOlDAczyDQ24Pn_g&s"
+        }
+      ]
+    }
+  ],
+  "beachs": [
+    {
+      "name": "beachs",
+      "plages": [
+        {
+          "name": "Rio Janeiro",
+          "description": "Rio de Janeiro is the capital and largest city of the state of Rio de Janeiro in Brazil.",
+          "imgUrl": "https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2023/08/07083856/Ipanema-beach-with-mosaic-of-sidewalk-in-Rio-de-Janeiro.-Brazil-1.jpg"
+        },
+        {
+          "name": "Mykonos",
+          "description": "Mykonos is a city in Greece, in the southern part of the country.",
+          "imgUrl": "https://images.squarespace-cdn.com/content/v1/5caa7c89d24e55000161e6ed/1595248741547-N64NC2LXCKX01KE06AGA/MYKONOS-AND-THE-AEGEAN_01_l.jpg"
+        },
+        {
+          "name": "Bahamas",
+          "description": "Bahamas is a state in the Caribbean Sea.",
+          "imgUrl": "https://voyagescouture-production.s3.amazonaws.com/uploads/images/products/399aa545-5339-454d-98c6-178aa1f95e38/Bahamas%20-%20AdobeStock_8634838_product_preview.jpeg"
+        }
+      ]
+      
+    }
+  ],
+  "temples": [
+    {
+      "name": "temples",
+      "domaines":[
+        {
+          "name": "Bali",
+          "description": "Les temples de Bali sont au centre de la culture locale. C’est un sanctuaire de prière mais aussi un lieu de partages et d’échanges où se retrouve les familles.",
+          "imgUrl": "https://traveldesigner.fr/wp-content/uploads/2022/01/temple-ulun-danu-bratan.jpg"
+        },
+        {
+          "name": "temple Senso-ji, Tokyo",
+          "description": "Le temple Senso-ji, dans l’arrondissement historique d’Asakusa, est le plus ancien temple de Tokyo ainsi que l’un des plus visités",
+          "imgUrl": "https://a.cdn-hotels.com/gdcs/production65/d826/d42a8ade-b32e-436a-a51d-a9c32630d4f8.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+        },
+        {
+          "name": "Akshardham Temple, Delhi",
+          "description": "Constructed on the principles of Vastu Shastra and Pancharatra Shastra, this temple is situated near the banks of River Yamuna in Delhi.",
+          "imgUrl": "https://www.tourmyindia.com/blog//wp-content/uploads/2021/03/Akshardham-Temple.jpg"
+        }
+      ]
+    }
+  ]
+}
